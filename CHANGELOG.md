@@ -2,6 +2,10 @@
 
 All versions are tagged by the major Postgres version, plus an individual semver for this library itself.
 
+## --   2023-07-07
+
+* Fix builds when compiling with `glibc >=  2.38` [#203](https://github.com/pganalyze/libpg_query/pull/203)
+
 ## 13-2.2.0   2022-11-02
 
 * Update to Postgres 13.8 patch release [#156](https://github.com/pganalyze/libpg_query/pull/156)
